@@ -191,7 +191,7 @@ $result_r = countrylist();
             }
             
             $.ajax({
-            url: "./controllers/userlog.php",
+            url: "./controllers/useregister.php",
             type: "post",
             data: {
             submit:'submit',
